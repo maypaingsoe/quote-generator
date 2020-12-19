@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto+Mono:wght@300&display=swap');
+
+*{
+  font-family: 'Montserrat', sans-serif;
+  color: #faf3dd;
+}
+.h1{
+  text-align: center;
+  margin-top: 4rem;
+}
+.card{
+  margin-top: 4rem;
+  width: 50%;
+}
+#output {
+  padding: 45px;
+}
+#btn{
+
+  color: #4ecdc4;
+  border: groove;
+}
+@media screen and (max-width: 400px) {
+.card{
+  width: 70%;
+}
+}
